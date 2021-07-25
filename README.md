@@ -28,3 +28,5 @@ And when just 4 seconds are left:
 `PREFIX TEXT 4 POSTFIX TEXT`
 
 Prefix and postfix fields are optional and can be left blank.
+
+Note: this script is not currently compatible with multiday countdowns. This also means that if your event starts just after midnight, the counter will not work until the new day starts. The event date is assumed to be `today`, and the `Final Text` field data will be displayed if the current time is after the event time.
